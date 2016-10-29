@@ -10,6 +10,9 @@ HelloWorld.prototype.hello = function(input) {
 //
 // YOUR CODE GOES HERE
 //
+  if(input === ''){
+    return("Hello, World!")
+  }
 };
 
 module.exports = HelloWorld;
