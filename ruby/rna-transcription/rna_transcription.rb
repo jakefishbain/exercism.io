@@ -1,8 +1,13 @@
 class Complement
   def self.of_dna(input)
-    return 'G' if input == 'C'
-    return 'C' if input == 'G'
-    return 'A' if input == 'T'
-    return 'U' if input == 'A'
+    strands = {'G' => 'C', 
+               'C' => 'G', 
+               'T' => 'A', 
+               'A' => 'U'}
+    string = ''
+    input.split('').map do |letter|
+      string += strands[letter]
+    end
+    return string
   end
 end
