@@ -28,7 +28,6 @@ class ComplementTest < Minitest::Test
   end
 
   def test_dna_correctly_handles_invalid_input
-    skip
     assert_equal '', Complement.of_dna('U')
   end
 

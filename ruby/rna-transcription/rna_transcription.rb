@@ -6,7 +6,8 @@ class Complement
                'A' => 'U'}
     string = ''
     input.split('').map do |letter|
-      string += strands[letter]
+      return '' if strands.keys.include?(letter) == false
+        string += strands[letter]
     end
     return string
   end
