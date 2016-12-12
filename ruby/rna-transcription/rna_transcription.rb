@@ -1,5 +1,5 @@
 class Complement
-  def of_dna(input)
-    
+  def self.of_dna(input)
+    return 'G' if input == 'C'
   end
 end
