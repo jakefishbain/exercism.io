@@ -9,7 +9,7 @@ class Raindrops
     str += 'Plang' if div5(n)
     str += 'Plong' if div7(n)
 
-    if str.length <= 0
+    if str != ''
       return str
     else 
       return n.to_s
