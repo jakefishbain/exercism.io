@@ -31,12 +31,10 @@ class RaindropsTest < Minitest::Test
   end
 
   def test_9
-    skip
     assert_equal 'Pling', Raindrops.convert(9)
   end
 
   def test_10
-    skip
     assert_equal 'Plang', Raindrops.convert(10)
   end
 
