@@ -9,7 +9,7 @@ class Raindrops
     elsif n/3 == (n/3.0)
       return 'Pling'
     else 
-      return n
+      return n.to_s
     end
   end
 end
