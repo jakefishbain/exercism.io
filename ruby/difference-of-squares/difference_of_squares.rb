@@ -21,4 +21,8 @@ class Squares
     return sum
   end
 
+  def difference
+    
+  end
+
 end
