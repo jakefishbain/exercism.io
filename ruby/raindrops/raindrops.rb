@@ -2,11 +2,11 @@ class Raindrops
   def self.convert(n)
     if n == 1
       return n.to_s
-    elsif n == (n/7.0)*n
+    elsif n/7 == (n/7.0)
       return 'Plong'
-    elsif n == (n/5.0)*n
+    elsif n/5 == (n/5.0)
       return 'Plang'
-    elsif n == (n/3.0)*n
+    elsif n/3 == (n/3.0)
       return 'Pling'
     else 
       return n
