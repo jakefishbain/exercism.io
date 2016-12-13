@@ -1,9 +1,15 @@
 class Squares
-  def square_of_sum(n)
-    sum = 0
-    until n == 0
-      sum += n
-      n-1
-    end
+  def initialize(n)
+    @n = n
   end
+
+  def square_of_sum
+    sum = 0
+    until @n == 0
+      sum += @n
+      @n -= 1
+    end
+    return sum ** 2
+  end
+  
 end
