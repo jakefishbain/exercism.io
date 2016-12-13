@@ -5,11 +5,11 @@ class Raindrops
     end
 
     str = ''
-    str += 'Plong' if div7(n)
-    str += 'Plang' if div5(n)
     str += 'Pling' if div3(n)
+    str += 'Plang' if div5(n)
+    str += 'Plong' if div7(n)
 
-    if str != nil
+    if str.length <= 0
       return str
     else 
       return n.to_s
