@@ -15,10 +15,10 @@ class Fixnum
          4 => "IV",
          1 => "I",
    }
-   
+
   def to_roman
     n = self
-    roman = ""
+    roman_value = ""
     ROMAN_NUMBERS.each do |value, letter|
       roman << letter*(n / value)
       n = n % value
