@@ -20,7 +20,7 @@ class Fixnum
     n = self
     roman_value = ""
     ROMAN_NUMBERS.each do |value, letter|
-      roman << letter*(n / value)
+      roman_value << letter*(n / value)
       n = n % value
     end
     return roman
