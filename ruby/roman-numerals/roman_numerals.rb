@@ -23,7 +23,7 @@ class Fixnum
       roman_value << letter*(n / value)
       n = n % value
     end
-    return roman
+    return roman_value
   end
 
 end
