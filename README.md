@@ -1,1 +1,1 @@
-My escapades with the challenges outlines on [exercism.io](http://exercism.io/)!
+My escapades with the challenges outlined on [exercism.io](http://exercism.io/)!
