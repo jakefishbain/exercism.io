@@ -4,11 +4,9 @@ class Robot
 
   def initialize
     @name = new_name
-    # p NAMES_REGISTRY
   end
 
   def new_name  
-    if NAMES_REGISTRY.include?(self.name)
     robot_name = ''
     2.times{ robot_name += ('A'..'Z').to_a.sample }
     3.times{ robot_name += rand(0..9).to_s }
