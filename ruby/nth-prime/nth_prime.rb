@@ -1,6 +1,6 @@
 class Prime
-  def nth()
-    
+  def self.nth(n)
+
   end
 end
 
