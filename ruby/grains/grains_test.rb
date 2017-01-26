@@ -33,7 +33,6 @@ class GrainsTest < Minitest::Test
   end
 
   def test_square_0_raises_an_exception
-    skip
     assert_raises(ArgumentError) { Grains.square(0) }
   end
 
@@ -43,7 +42,6 @@ class GrainsTest < Minitest::Test
   end
 
   def test_square_greater_than_64_raises_an_exception
-    skip
     assert_raises(ArgumentError) { Grains.square(65) }
   end
 
