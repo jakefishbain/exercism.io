@@ -9,12 +9,10 @@ class GrainsTest < Minitest::Test
   end
 
   def test_2
-    skip
     assert_equal 2, Grains.square(2)
   end
 
   def test_3
-    skip
     assert_equal 4, Grains.square(3)
   end
 
