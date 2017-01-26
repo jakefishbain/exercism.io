@@ -1,6 +1,11 @@
 class Year
   def self.leap?(n)
-    return false if n/100.0 == (n/100.0).floor
-    return true if n/4.0 == (n/4.0).floor
+    if n/400.0 == (n/400.0).floor && n/100.0 == (n/100.0).floor
+      return true
+    elsif n/100.0 == (n/100.0).floor
+      return false
+    elsif n/4.0 == (n/4.0).floor
+      return true
+    end
   end
 end
