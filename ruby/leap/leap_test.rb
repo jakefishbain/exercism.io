@@ -40,7 +40,6 @@ class YearTest < Minitest::Test
   end
 
   def test_leap_y2k
-    skip
     assert Year.leap?(2000), "Expected 'true', 2000 is a leap year."
   end
   # Problems in exercism evolve over time, as we find better ways to ask
