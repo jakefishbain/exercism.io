@@ -1,7 +1,6 @@
 class Grains
-  def self.square(n)
-    return 1 if n == 1
-    return 2 if n == 2
-    return 4 if n == 3
+  def self.square(n, grains=1)
+    return grains if n == 1
+    self.square(n-1, grains*2)
   end
 end
