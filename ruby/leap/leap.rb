@@ -1,4 +1,5 @@
 class Year
-  def leap?(n)
+  def self.leap?(n)
+    return true if n/4.0 == (n/4.0).floor
   end
 end
