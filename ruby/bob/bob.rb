@@ -1,5 +1,9 @@
 class Bob
   def self.hey(remark)
-    return 'Whatever.'
+    if remark == remark.upcase
+      return 'Whoa, chill out!'
+    else
+      return 'Whatever.'
+    end
   end
 end
