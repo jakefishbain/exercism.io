@@ -1,6 +1,6 @@
 class Bob
   def self.hey(remark)
-  if silence?(remark)
+    if silence?(remark)
       return 'Fine. Be that way!'
     elsif shouting?(remark)
       return 'Whoa, chill out!'
