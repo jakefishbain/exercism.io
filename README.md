@@ -3,6 +3,7 @@
 Languages explored:
 * Ruby
 * JavaScript
+* ECMAScript
 
 Plans to explore...
 * Java
