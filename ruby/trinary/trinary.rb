@@ -17,5 +17,3 @@ end
 module BookKeeping
   VERSION=1
 end
-# t = Trinary.new('123')
-# t.to_decimal
